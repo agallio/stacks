@@ -1,8 +1,8 @@
-# @agallio/boilerplates
+# @agallio/stacks
 
-My personal boilerplate generator.
+My personal stack/boilerplate generator.
 
-## List of Boilerplates
+## List of Stacks
 
 - Next.js
 - Next.js (TypeScript)
@@ -13,7 +13,7 @@ My personal boilerplate generator.
 
 ```bash
 # get it via npx/pnpx
-$ npx @agallio/boilerplates <project-name>
+$ npx @agallio/stacks <project-name>
 ```
 
-Select one of the boilerplate, and it will generate the boilerplate automatically.
+Select one of the stack, and it will generate the stack automatically.

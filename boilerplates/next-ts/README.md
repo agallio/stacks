@@ -1,4 +1,4 @@
-# Next.js (TypeScript) - @agallio/boilerplates
+# Next.js (TypeScript) - @agallio/stacks
 
 Next.js (TypeScript) boilerplate by [agallio](https://github.com/agallio)
 

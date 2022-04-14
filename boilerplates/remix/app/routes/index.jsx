@@ -23,7 +23,7 @@ export default function Index() {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center">
       <h1>
-        <b>Remix</b> - @agallio/boilerplates
+        <b>Remix</b> - @agallio/stacks
       </h1>
 
       {isMounted ? (

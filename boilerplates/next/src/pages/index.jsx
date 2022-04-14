@@ -17,12 +17,12 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Next.js - @agallio/boilerplates</title>
+        <title>Next.js - @agallio/stacks</title>
       </Head>
 
       <div className="w-screen h-screen flex flex-col items-center justify-center">
         <h1>
-          <b>Next.js</b> - @agallio/boilerplates
+          <b>Next.js</b> - @agallio/stacks
         </h1>
 
         {isMounted ? (

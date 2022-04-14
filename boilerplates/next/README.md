@@ -1,4 +1,4 @@
-# Next.js - @agallio/boilerplates
+# Next.js - @agallio/stacks
 
 Next.js boilerplate by [agallio](https://github.com/agallio)
 

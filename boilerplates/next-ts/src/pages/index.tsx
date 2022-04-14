@@ -20,12 +20,12 @@ const Index: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Next.js (TypeScript) - @agallio/boilerplates</title>
+        <title>Next.js (TypeScript) - @agallio/stacks</title>
       </Head>
 
       <div className="w-screen h-screen flex flex-col items-center justify-center">
         <h1>
-          <b>Next.js (TypeScript)</b> - @agallio/boilerplates
+          <b>Next.js (TypeScript)</b> - @agallio/stacks
         </h1>
 
         {isMounted ? (

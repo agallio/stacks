@@ -1,4 +1,4 @@
-# Remix - @agallio/boilerplates
+# Remix - @agallio/stacks
 
 Remix boilerplate by [agallio](https://github.com/agallio)
 

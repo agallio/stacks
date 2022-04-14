@@ -4,7 +4,7 @@ import { MetaFunction } from 'remix'
 import useLocalStorage from '~/utils/hooks/useLocalStorage'
 
 export const meta: MetaFunction = () => {
-  return { title: 'Remix (TypeScript) - @agallio/boilerplates' }
+  return { title: 'Remix (TypeScript) - @agallio/stacks' }
 }
 
 export default function Index() {
@@ -28,7 +28,7 @@ export default function Index() {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center">
       <h1>
-        <b>Remix (TypeScript)</b> - @agallio/boilerplates
+        <b>Remix (TypeScript)</b> - @agallio/stacks
       </h1>
 
       {isMounted ? (
