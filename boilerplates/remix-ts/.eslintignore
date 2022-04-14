@@ -1,0 +1,5 @@
+**/node_modules/*
+**/api/*
+**/public/*
+**/.cache/*
+jsconfig.json
