@@ -1,3 +1,4 @@
+import type { LinksFunction, MetaFunction } from '@remix-run/node'
 import {
   Links,
   LiveReload,
@@ -5,8 +6,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from 'remix'
-import type { MetaFunction, LinksFunction } from 'remix'
+} from '@remix-run/react'
 
 // Styles
 import styles from './styles/app.css'

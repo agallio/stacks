@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { MetaFunction } from 'remix'
+import type { MetaFunction } from '@remix-run/node'
 
 import useLocalStorage from '~/utils/hooks/useLocalStorage'
 
