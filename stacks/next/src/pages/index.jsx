@@ -4,15 +4,9 @@ import { useTheme } from 'next-themes'
 
 export default function Index() {
   const [isMounted, setIsMounted] = useState(false)
-  const { resolvedTheme: theme, setTheme } = useTheme()
+  const { theme, setTheme } = useTheme()
 
   useEffect(() => setIsMounted(true), [])
-
-  const switchTheme = () => {
-    if (isMounted) {
-      setTheme(theme === 'light' ? 'dark' : 'light')
-    }
-  }
 
   return (
     <>
@@ -26,9 +20,14 @@ export default function Index() {
         </h1>
 
         {isMounted ? (
-          <button className="hover:underline" onClick={switchTheme}>
-            Switch Theme
-          </button>
+          <div className="flex flex-col mt-2">
+            <p>Select Theme</p>
+            <select value={theme} onChange={(e) => setTheme(e.target.value)}>
+              <option value="system">System</option>
+              <option value="dark">Dark</option>
+              <option value="light">Light</option>
+            </select>
+          </div>
         ) : null}
       </div>
     </>
