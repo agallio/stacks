@@ -1,6 +1,6 @@
 {
   "name": "@agallio/stacks",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "agallio's simple framework stacks",
   "bin": "lib/cli.js",
   "engines": {
@@ -15,10 +15,10 @@
   "author": "agallio <agalliosamai@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "cac": "^6.7.12",
-    "chalk": "5.0.1",
+    "cac": "^6.7.14",
+    "chalk": "5.2.0",
     "git-clone": "^0.2.0",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.0.4",
     "sao": "^1.7.1"
   }
 }

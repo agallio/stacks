@@ -1,17 +1,17 @@
 lockfileVersion: 5.4
 
 specifiers:
-  cac: ^6.7.12
-  chalk: 5.0.1
+  cac: ^6.7.14
+  chalk: 5.2.0
   git-clone: ^0.2.0
-  rimraf: ^3.0.2
+  rimraf: ^4.0.4
   sao: ^1.7.1
 
 dependencies:
-  cac: 6.7.12
-  chalk: 5.0.1
+  cac: 6.7.14
+  chalk: 5.2.0
   git-clone: 0.2.0
-  rimraf: 3.0.2
+  rimraf: 4.0.4
   sao: 1.7.1
 
 packages:
@@ -205,8 +205,8 @@ packages:
       ieee754: 1.2.1
     dev: false
 
-  /cac/6.7.12:
-    resolution: {integrity: sha512-rM7E2ygtMkJqD9c7WnFU6fruFcN3xe4FM5yUmgxhZzIKJk4uHl9U/fhwdajGFQbQuv43FAUo1Fe8gX/oIKDeSA==}
+  /cac/6.7.14:
+    resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
     dev: false
 
@@ -258,8 +258,8 @@ packages:
       supports-color: 5.5.0
     dev: false
 
-  /chalk/5.0.1:
-    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
+  /chalk/5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
@@ -1623,11 +1623,10 @@ packages:
       glob: 7.2.0
     dev: false
 
-  /rimraf/3.0.2:
-    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+  /rimraf/4.0.4:
+    resolution: {integrity: sha512-R0hoVr9xTwemarQjoWlNt/nb5dEGVTBhVdkRmEX2zEkT8T6onH0XKiGjuaC7rNNj/gYzY2p4NVRJ3sjO1ascHQ==}
+    engines: {node: '>=14'}
     hasBin: true
-    dependencies:
-      glob: 7.2.0
     dev: false
 
   /run-async/2.4.1:
@@ -1664,7 +1663,7 @@ packages:
     resolution: {integrity: sha512-g4VGkyvpZ+n+k7Pp+Qc9Yoy2wGFi7FstLZoLxwiMhjn4n4gCStQJ873weCITAD1ocKbKL7HyKDNnC4yTqievsw==}
     hasBin: true
     dependencies:
-      cac: 6.7.12
+      cac: 6.7.14
       chalk: 2.4.2
       conf: 2.2.0
       cross-spawn: 6.0.5

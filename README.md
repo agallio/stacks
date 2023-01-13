@@ -6,8 +6,6 @@ My personal stack/boilerplate generator.
 
 - Next.js
 - Next.js (TypeScript)
-- Remix
-- Remix (TypeScript)
 
 ## How-to-Use
 

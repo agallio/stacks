@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
+import { type NextPage } from 'next'
 import Head from 'next/head'
 import { useTheme } from 'next-themes'
-
-// Types
-import type { NextPage } from 'next'
 
 const Index: NextPage = () => {
   const [isMounted, setIsMounted] = useState(false)
