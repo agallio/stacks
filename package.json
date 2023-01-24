@@ -1,6 +1,6 @@
 {
   "name": "@agallio/stacks",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "agallio's simple framework stacks",
   "bin": "lib/cli.js",
   "engines": {
