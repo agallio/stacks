@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "@expo/next-adapter": "^6.0.0",
-    "@repo/ui": "*",
-    "nativewind": "^4.0.34",
+    "@repo/app": "*",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

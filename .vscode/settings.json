@@ -1,3 +1,7 @@
 {
-  "eslint.workingDirectories": ["stacks/next", "stacks/next-ts"]
+  "eslint.workingDirectories": [
+    "stacks/next",
+    "stacks/next-ts",
+    "stacks/next-expo-turbo-ts"
+  ]
 }
