@@ -6,7 +6,7 @@ import {
   DarkTheme,
 } from "@react-navigation/native";
 
-import "../../global.css";
+import "../global.css";
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
