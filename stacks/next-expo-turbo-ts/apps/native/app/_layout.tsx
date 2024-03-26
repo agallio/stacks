@@ -1,5 +1,5 @@
-import RootLayout from "../components/root-layout";
+import RootLayout from '../components/root-layout'
 
 export default function Layout() {
-  return <RootLayout />;
+  return <RootLayout />
 }

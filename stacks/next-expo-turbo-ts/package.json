@@ -1,20 +1,20 @@
 {
+  "name": "multiplatform-ts",
   "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
-    "web": "turbo run dev --filter web",
-    "ios": "cd apps/native && yarn ios",
-    "android": "cd apps/native && yarn android",
     "build": "turbo run build",
     "clean": "turbo run clean && rm -rf node_modules",
+    "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
   },
   "devDependencies": {
     "prettier": "^3.1.1",
-    "turbo": "latest"
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "turbo": "^1.13.0"
   },
   "packageManager": "yarn@1.22.19",
   "engines": {

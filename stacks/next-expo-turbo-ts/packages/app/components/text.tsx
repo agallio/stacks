@@ -1,19 +1,21 @@
-import { ComponentProps } from "react";
-import { Text as RNText } from "react-native";
-import clsx from "clsx";
+import { ComponentProps } from 'react'
+import { Text as RNText } from 'react-native'
+
+// Utils
+import { cn } from '../utils/helpers'
 
 type TextProps = ComponentProps<typeof RNText> & {
-  customFontSize?: string;
-};
+  customFontSize?: string
+}
 
 export function Text(props: TextProps) {
   return (
     <RNText
       {...props}
-      className={clsx(
-        props.customFontSize ? props.customFontSize : "text-base",
-        props.className
+      className={cn(
+        props.customFontSize ? props.customFontSize : 'text-base',
+        props.className,
       )}
     />
-  );
+  )
 }

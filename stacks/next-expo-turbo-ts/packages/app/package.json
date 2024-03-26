@@ -2,17 +2,21 @@
   "name": "@repo/app",
   "version": "0.0.0",
   "main": "index.ts",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "@repo/typescript-config": "*",
-    "@types/react": "^18.2.46",
+    "@types/react": "~18.2.70",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
     "clsx": "^2.1.0",
     "nativewind": "^4.0.34",
-    "react": "^18.2.0",
-    "react-native": "^0.73.4",
-    "solito": "^4.2.1"
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "solito": "^4.2.2",
+    "tailwind-merge": "^2.2.2"
   }
 }

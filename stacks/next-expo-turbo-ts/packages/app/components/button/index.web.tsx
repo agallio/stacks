@@ -1,17 +1,17 @@
-import { type MouseEventHandler } from "react";
+import { type MouseEventHandler } from 'react'
 
 export interface ButtonProps {
-  text: string;
-  onClick?: MouseEventHandler<HTMLButtonElement>;
+  text: string
+  onClick?: MouseEventHandler<HTMLButtonElement>
 }
 
 export function Button({ text, onClick }: ButtonProps) {
   return (
     <button
-      className="flex items-center justify-center bg-blue-600 rounded p-4 w-[fit-content] text-white"
+      className="flex w-[fit-content] items-center justify-center rounded bg-blue-600 p-4 text-white"
       onClick={onClick}
     >
       {text}
     </button>
-  );
+  )
 }
