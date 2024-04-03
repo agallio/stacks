@@ -5,7 +5,7 @@ Expo + Next.js (TypeScript) boilerplate using Turborepo by [agallio](https://git
 ## Prerequisites
 
 1. `Node.js` LTS (> 18)
-2. `yarn` >= v4 (berry)
+2. `yarn` >= v1.22.19 (classic)
 
 ## What's Inside?
 
