@@ -1,6 +1,7 @@
 import { View } from 'react-native'
 import { useRouter } from 'solito/navigation'
 
+// Components
 import { Button, Text } from '../../components'
 
 export function HomeScreen() {
