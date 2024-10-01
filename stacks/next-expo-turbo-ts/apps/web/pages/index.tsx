@@ -1,3 +1,9 @@
-import { HomeScreen } from '@repo/app/features/home'
+import { HomeScreen as HomeScreenComponent } from '@repo/app/features/home'
 
-export default HomeScreen
+export default function HomeScreen() {
+  return (
+    <div className="py-8">
+      <HomeScreenComponent />
+    </div>
+  )
+}

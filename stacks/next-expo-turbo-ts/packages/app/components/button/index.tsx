@@ -11,7 +11,7 @@ export interface ButtonProps {
 export function Button({ text, onClick }: ButtonProps) {
   return (
     <TouchableOpacity
-      className="flex w-[fit-content] items-center justify-center rounded bg-blue-600 p-4"
+      className="flex w-[fit-content] items-center justify-center rounded bg-blue-600 px-4 py-2"
       onPress={onClick}
     >
       <Text className="text-white">{text}</Text>

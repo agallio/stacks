@@ -1,3 +1,9 @@
-import { ReadScreen } from '@repo/app/features/read'
+import { ReadScreen as ReadScreenComponent } from '@repo/app/features/read'
 
-export default ReadScreen
+export default function ReadScreen() {
+  return (
+    <div className="py-8">
+      <ReadScreenComponent />
+    </div>
+  )
+}
