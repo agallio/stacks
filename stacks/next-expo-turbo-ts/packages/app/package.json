@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "nativewind": "^4.0.34",
+    "nativewind": "^4.1.10",
     "react": "18.2.0",
     "react-native": "0.74.5",
     "solito": "^4.2.2",
