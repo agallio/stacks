@@ -17,7 +17,10 @@ config.resolver.nodeModulesPaths = [
   path.resolve(monorepoRoot, 'node_modules'),
 ]
 
+// 3. Force resolving nested modules to the folders below
+config.resolver.disableHierarchicalLookup = true
+
 module.exports = withNativeWind(config, {
   input: './global.css',
-  inlineRem: 16,
+  inlineRem: 17,
 })

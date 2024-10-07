@@ -1,3 +1,5 @@
+import '../global.css'
+
 import { useColorScheme } from 'react-native'
 import { Stack } from 'expo-router'
 import {
@@ -6,8 +8,6 @@ import {
   DarkTheme,
 } from '@react-navigation/native'
 
-import '../global.css'
-
 export default function RootLayout() {
   const colorScheme = useColorScheme()
 
@@ -15,7 +15,7 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="index" options={{ title: 'Home' }} />
-        <Stack.Screen name="read" options={{ title: 'Read' }} />
+        <Stack.Screen name="detail" options={{ title: 'Detail' }} />
       </Stack>
     </ThemeProvider>
   )

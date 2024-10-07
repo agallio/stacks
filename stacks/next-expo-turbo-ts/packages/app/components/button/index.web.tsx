@@ -1,14 +1,16 @@
-import { type MouseEventHandler } from 'react'
+// Utils
+import { cn } from '../../utils/helpers'
 
-export interface ButtonProps {
-  text: string
-  onClick?: MouseEventHandler<HTMLButtonElement>
-}
+// Types
+import type { ButtonProps } from './types'
 
-export function Button({ text, onClick }: ButtonProps) {
+export default function Button({ text, className, onClick }: ButtonProps) {
   return (
     <button
-      className="flex w-[fit-content] items-center justify-center rounded bg-blue-600 p-4 text-white"
+      className={cn(
+        'flex w-[fit-content] items-center justify-center rounded bg-blue-600 px-4 py-2 text-white',
+        className,
+      )}
       onClick={onClick}
     >
       {text}

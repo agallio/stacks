@@ -1,17 +1,21 @@
-import { TouchableOpacity, GestureResponderEvent } from 'react-native'
+import { TouchableOpacity } from 'react-native'
 
 // Components
-import { Text } from '../text'
+import Text from '../text'
 
-export interface ButtonProps {
-  text: string
-  onClick?: (_event: GestureResponderEvent) => void
-}
+// Utils
+import { cn } from '../../utils/helpers'
 
-export function Button({ text, onClick }: ButtonProps) {
+// Types
+import type { ButtonProps } from './types'
+
+export default function Button({ text, className, onClick }: ButtonProps) {
   return (
     <TouchableOpacity
-      className="flex w-[fit-content] items-center justify-center rounded bg-blue-600 px-4 py-2"
+      className={cn(
+        'flex w-[fit-content] items-center justify-center rounded bg-blue-600 px-4 py-2',
+        className,
+      )}
       onPress={onClick}
     >
       <Text className="text-white">{text}</Text>

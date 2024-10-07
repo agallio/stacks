@@ -10,9 +10,8 @@ export default function HomeScreen() {
 
   return (
     <View className="flex-1 items-center justify-center">
-      <Text customFontSize="text-xl">Next.js + Expo Monorepo</Text>
-      <Text className="my-2">Home Screen</Text>
-      <Button text="Detail Screen" onClick={() => router.push('/detail')} />
+      <Text>Detail Screen</Text>
+      <Button text="Back" className="mt-2" onClick={() => router.back()} />
     </View>
   )
 }
