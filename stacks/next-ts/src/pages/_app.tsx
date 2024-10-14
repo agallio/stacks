@@ -1,17 +1,21 @@
+import '../styles/globals.css'
+
+import Head from 'next/head'
 import { ThemeProvider } from 'next-themes'
 
 // Types
 import type { AppProps } from 'next/app'
 
-// Styles
-import '../styles/globals.css'
-
-const MyApp = ({ Component, pageProps }: AppProps) => {
+export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider attribute="class">
-      <Component {...pageProps} />
-    </ThemeProvider>
+    <>
+      <Head>
+        <title>@agallio/stacks</title>
+      </Head>
+
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
   )
 }
-
-export default MyApp
