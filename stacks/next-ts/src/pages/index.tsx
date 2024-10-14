@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
-import { type NextPage } from 'next'
 import { useTheme } from 'next-themes'
 
-const Index: NextPage = () => {
+export default function Index() {
   const [isMounted, setIsMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
@@ -28,4 +27,4 @@ const Index: NextPage = () => {
   )
 }
 
-export default Index
+
