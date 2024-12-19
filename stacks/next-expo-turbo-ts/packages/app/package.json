@@ -13,10 +13,10 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "nativewind": "^4.1.10",
+    "nativewind": "4.1.10",
     "react": "18.2.0",
     "react-native": "0.74.5",
     "solito": "^4.2.2",
-    "tailwind-merge": "^2.4.0"
+    "tailwind-merge": "^2.5.5"
   }
 }

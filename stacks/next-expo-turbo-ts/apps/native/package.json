@@ -3,18 +3,21 @@
   "version": "0.0.1",
   "main": "expo-router/entry",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios"
+    "start": "expo start -c",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
     "@repo/app": "*",
-    "expo": "~51.0.36",
+    "expo": "~51.0.38",
     "expo-constants": "~16.0.2",
+    "expo-dev-client": "~4.0.29",
     "expo-linking": "~6.3.1",
-    "expo-router": "~3.5.23",
+    "expo-navigation-bar": "~3.0.7",
+    "expo-router": "~3.5.24",
     "expo-status-bar": "~1.12.1",
-    "nativewind": "^4.1.10",
+    "expo-system-ui": "~3.0.7",
+    "nativewind": "4.1.10",
     "react": "18.2.0",
     "react-native": "0.74.5",
     "react-native-reanimated": "~3.10.1",
