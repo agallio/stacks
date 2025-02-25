@@ -1,48 +1,35 @@
 import '../global.css'
 
-import { useEffect } from 'react'
-import { Platform, useColorScheme } from 'react-native'
+import { useColorScheme, View } from 'react-native'
 import { Stack } from 'expo-router'
 import {
   ThemeProvider,
   DefaultTheme,
   DarkTheme,
 } from '@react-navigation/native'
-import * as SystemUI from 'expo-system-ui'
-import * as NavigationBar from 'expo-navigation-bar'
+import { SystemBars } from 'react-native-edge-to-edge'
 
 export default function RootLayout() {
   const colorScheme = useColorScheme()
 
-  useEffect(() => {
-    if (Platform.OS === 'android') {
-      const setAndroidBackgroundColor = async () => {
-        SystemUI.setBackgroundColorAsync(
-          colorScheme === 'dark'
-            ? DarkTheme.colors.background
-            : DefaultTheme.colors.background,
-        )
-      }
-
-      const setAndroidNavigationBarColor = async () => {
-        await NavigationBar.setBackgroundColorAsync(
-          colorScheme === 'dark'
-            ? DarkTheme.colors.background
-            : DefaultTheme.colors.background,
-        )
-      }
-
-      setAndroidBackgroundColor()
-      setAndroidNavigationBarColor()
-    }
-  }, [colorScheme])
-
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="index" options={{ title: 'Home' }} />
-        <Stack.Screen name="detail" options={{ title: 'Detail' }} />
-      </Stack>
-    </ThemeProvider>
+    <View
+      className="flex-1"
+      style={{
+        backgroundColor:
+          colorScheme === 'light'
+            ? DefaultTheme.colors.background
+            : DarkTheme.colors.background,
+      }}
+    >
+      <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+        <Stack>
+          <Stack.Screen name="index" options={{ title: 'Home' }} />
+          <Stack.Screen name="detail" options={{ title: 'Detail' }} />
+        </Stack>
+
+        <SystemBars style="auto" />
+      </ThemeProvider>
+    </View>
   )
 }

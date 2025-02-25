@@ -28,6 +28,11 @@ export default {
     ...sharedSplash,
     supportsTablet: true,
     bundleIdentifier: 'xyz.agallio.stacksnative',
+    icon: {
+      dark: './assets/adaptive-icon.png',
+      light: './assets/adaptive-icon.png',
+      tinted: './assets/adaptive-icon.png',
+    },
   },
   android: {
     ...sharedSplash,
@@ -37,5 +42,5 @@ export default {
       backgroundColor: '#ffffff',
     },
   },
-  plugins: ['expo-router'],
+  plugins: ['expo-router', 'react-native-edge-to-edge'],
 }
