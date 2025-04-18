@@ -15,9 +15,9 @@ const sharedSplash = {
 }
 
 export default {
-  name: 'native',
-  slug: 'native',
-  scheme: 'native',
+  name: 'Stacks Mobile',
+  slug: 'stacksmobile',
+  scheme: 'stacksmobile',
   version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/icon.png',
@@ -27,7 +27,7 @@ export default {
   ios: {
     ...sharedSplash,
     supportsTablet: true,
-    bundleIdentifier: 'xyz.agallio.stacksnative',
+    bundleIdentifier: 'xyz.agallio.stacksmobile',
     icon: {
       dark: './assets/adaptive-icon.png',
       light: './assets/adaptive-icon.png',
@@ -36,7 +36,8 @@ export default {
   },
   android: {
     ...sharedSplash,
-    package: 'xyz.agallio.stacksnative',
+    package: 'xyz.agallio.stacksmobile',
+    versionCode: 1,
     adaptiveIcon: {
       foregroundImage: './assets/adaptive-icon.png',
       backgroundColor: '#ffffff',

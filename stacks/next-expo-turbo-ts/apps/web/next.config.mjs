@@ -8,7 +8,6 @@ const nextConfig = {
     'nativewind',
     'react-native',
     'react-native-css-interop',
-    'solito',
   ],
 }
 

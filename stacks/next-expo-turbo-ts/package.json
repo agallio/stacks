@@ -12,9 +12,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
   },
   "devDependencies": {
-    "prettier": "^3.5.2",
+    "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "turbo": "^2.4.2"
+    "turbo": "^2.5.0"
   },
   "packageManager": "yarn@1.22.22",
   "engines": {
