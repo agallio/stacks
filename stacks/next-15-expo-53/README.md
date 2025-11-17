@@ -1,10 +1,10 @@
-# Turborepo Expo + Next.js - @agallio/stacks
+# Expo 53 + Next.js 15 (Turborepo with yarn) - @agallio/stacks
 
 Expo + Next.js (TypeScript) boilerplate using Turborepo by [agallio](https://github.com/agallio)
 
 ## Prerequisites
 
-1. `Node.js` LTS (> 18)
+1. `Node.js` LTS (> 20)
 2. `yarn` >= v1.22.22 (classic)
 
 ## What's Inside?
@@ -36,7 +36,7 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 $ yarn
 
 # development
-$ yarn web # for web (Next.js)
+$ yarn dev # for web (Next.js)
 $ yarn android # for Android (Expo)
 $ yarn ios # for iOS (Expo)
 

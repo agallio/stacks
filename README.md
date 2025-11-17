@@ -6,7 +6,9 @@ My personal stack/boilerplate generator.
 
 - Next.js
 - Next.js (TypeScript)
-- Turborepo Expo + Next.js (TypeScript)
+- Expo 52 + Next.js 14 (Turborepo with yarn)
+- Expo 53 + Next.js 15 (Turborepo with yarn)
+- Expo 54 + Next.js 15 (Turborepo with pnpm)
 
 ## How-to-Use
 

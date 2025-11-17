@@ -1,13 +1,11 @@
-# [NEW] Turborepo Expo + Next.js - @agallio/stacks
-
-Updated with Expo 53, Next.js 15, and React 19
+# Expo 54 + Next.js 15 (Turborepo with pnpm) - @agallio/stacks
 
 Expo + Next.js (TypeScript) boilerplate using Turborepo by [agallio](https://github.com/agallio)
 
 ## Prerequisites
 
 1. `Node.js` LTS (> 20)
-2. `yarn` >= v1.22.22 (classic)
+2. `pnpm` >= 10.22.0
 
 ## What's Inside?
 
@@ -25,23 +23,24 @@ This monorepo includes the following packages/apps:
 - `mobile`: a [react-native](https://reactnative.dev/) app built with [expo](https://docs.expo.dev/)
 - `web`: a [Next.js](https://nextjs.org/) app built with [react-native-web](https://necolas.github.io/react-native-web/)
 - `@repo/app`: a stub [react-native](https://reactnative.dev/) component library shared by both `web` and `mobile` applications
+- `@repo/tailwind-config`: Shared `tailwind.config.js` used throughout the monorepo
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ## Getting Started
 
-**Use `yarn`!**
+**Use `pnpm`!**
 
 ```bash
 # install dependencies
-$ yarn
+$ pnpm
 
 # development
-$ yarn dev # for web (Next.js)
-$ yarn android # for Android (Expo)
-$ yarn ios # for iOS (Expo)
+$ pnpm dev # for web (Next.js)
+$ pnpm android # for Android (Expo)
+$ pnpm ios # for iOS (Expo)
 
 # production build
-$ yarn build
+$ pnpm build
 ```
