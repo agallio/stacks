@@ -9,6 +9,7 @@ My personal stack/boilerplate generator.
 - Expo 52 + Next.js 14 (Turborepo with yarn)
 - Expo 53 + Next.js 15 (Turborepo with yarn)
 - Expo 54 + Next.js 15 (Turborepo with pnpm)
+- Expo 54 + Next.js 15 App Router (Turborepo with pnpm)
 
 ## How-to-Use
 
